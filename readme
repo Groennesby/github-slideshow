@@ -1,0 +1,34 @@
+Arch Linux commands 
+
+Install SW manjaro linux terminal
+
+sudo pacman -S htop
+
+man pacman
+pacman -Q 		    zoek lokaal
+pacman -S ....		installeer 
+pacman -Syu		    update al mijn programma’s
+pacman -Su		    update wat al gesyncronizeerd is
+pacman -Sy
+pacman -Syyu		  dubbel check
+pacman -Syyuw		  download updates maar zonder installatie
+sudo pacman Syu
+pacman -Ss emacs	alles zoeken met emacs in titels en uitleg
+
+Delete programs
+pacman -R ...(naam)
+pacman -Rs ..(naam) 	met s is alles verwijderen die er mee te maken heeft. 
+pacman -Rsn(naam) 	  alles volledig verwijderen
+pacman -Q I wc -1	    toon al geinstalleerde programma’s
+pacman -Q		          toon alle programma’s
+pacman -Qed		        toont gesimpliffieerd geinstalleerde programma’s 
+pacman -Qdt		        toont orphins ( niet nodige programma’s meer )
+pacman /etc/pacman.conf
+
+
+Ubuntu Linux commands
+
+spt-get update && apt-get upgrade
+
+ Groennesby /
+github-slideshow 
